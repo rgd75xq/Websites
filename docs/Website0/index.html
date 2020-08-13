@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/cff710c807.js" crossorigin="anonymous"></script>
+        <link href="style.css" rel="stylesheet">
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <div class="main">
+            <nav>
+                <div class="nav-link">
+                    <ul>
+                        <li><a herf="#">Home</a></li>
+                        <li><a herf="#">Contact</a></li>
+                        <li><a herf="#">Projects</a></li>
+                        <li><a herf="#">About Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="Information">
+                <div class="overlay"></div>
+                <div class="female">
+                        <i class="fas fa-female"></i>
+                </div>
+                <div id="circle">
+                    <div class="feature one">
+                        <i class="fas fa-house-user"></i>
+                        <div>
+                            <h1>Hobbies</h1>
+                            <p>Cooking, Drawing, Crochet etc</p>
+                        </div>
+                    </div>
+                    <div class="feature two">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h1>Contact</h1>
+                            <p>Insta:**** Facebook:**** Twitter:**** SnapChat:**** Pinterest:****</p>
+                        </div>
+                    </div>
+                    <div class="feature three">
+                        <i class="fas fa-tasks"></i>
+                        <div>
+                            <h1>Projects</h1>
+                            <p>I am new to programming.</p>
+                        </div>
+                    </div>
+                    <div class="feature four">
+                        <i class="far fa-id-badge"></i>
+                        <div>
+                            <h1>About Me</h1>
+                            <p>My name is Raghad Abid</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-angle-up" id="UpBtn"></i>
+                <h3>Features</h3>
+                <i class="fas fa-angle-down" id="DownBtn"></i>
+            </div>
+
+        </div>
+
+        <script>
+            var circle = document.getElementById("circle");
+            var UpBtn = document.getElementById("UpBtn");
+            var DownBtn = document.getElementById("DownBtn");
+
+            var RotateValue = circle.style.transform;
+            var RotateSum;
+
+            UpBtn.onclick = function()
+            {
+                RotateSum = RotateValue + "rotate(-90deg)";
+                circle.style.transform = RotateSum;
+                RotateValue = RotateSum;
+            }
+            DownBtn.onclick = function()
+            {
+                RotateSum = RotateValue + "rotate(90deg)";
+                circle.style.transform = RotateSum;
+                RotateValue = RotateSum;
+            }
+
+        </script>
+
+    </body>
+</html>

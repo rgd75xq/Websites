@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow:  hidden;
+    background: linear-gradient(to right, #73c796, #b99bcd, #f9bbfc);
+}
+nav{
+    width:80%;
+    position: static;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-link ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.Information{
+    width: 899px;
+    height: 899px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+
+#circle{
+    width: 899px;
+    height: 899px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+
+.feature{
+    position: absolute;
+}
+
+.feature div{
+    margin-left: 30px;
+}
+
+.feature div p{
+    margin-top: 8px;
+}
+
+.one{
+    color: #fff;
+    top: 415px;
+    right: 15px;
+}
+
+.two{
+    color: #fff;
+    top: 25px;
+    left: 265px;
+    transform: rotate(-90deg);
+}
+
+.three{
+    color: #fff;
+    bottom: 410px;
+    left: 50px;
+    transform: rotate(-180deg);
+}
+
+.four{
+    color: #fff;
+    bottom: 115px;
+    right: 400px;
+    transform: rotate(-270deg);
+}
+
+.female{
+    font-size: 500px;
+    color: pink;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+    Z-index: 1;
+}
+
+.icons{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.icons h3{
+    margin: 15px 0;
+    color: #fff;
+}
+
+#UpBtn{
+    width: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#DownBtn{
+    width: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.overlay{
+    width: 0;
+    height: 0;
+    border-top: 500px solid #fff;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #fff;
+    border-left: 500px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
