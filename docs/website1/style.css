@@ -1,0 +1,89 @@
+body
+{
+    background-image: url("rgdphotos/paper-bags-near-wall-749353.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container
+{
+    background-color: rgba(0, 0, 0, 0.338);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header 
+{
+    background-color: rgba(0, 0, 0, 0.338);
+    height: 14px;
+    text-align: center;
+}
+
+nav
+{
+    background-color: rgba(0, 0, 0, 0.338);
+    height: 15px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+main
+{
+    background-color: rgba(0, 0, 0, 0.338);
+    height: 402px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer
+{
+    background-color: rgba(0, 0, 0, 0.750);
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+h1
+{
+    color: white;
+    font-style: oblique;
+    font-size: 84px;
+    font-family: 'Dancing Script', cursive;
+}
+
+p
+{
+    color: white;
+    font-style: oblique;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+}
+
+a
+{
+    color: white;
+    text-decoration: gray;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav a
+{
+  padding-right: 20px;
+  color: white;
+}
+
+footer p
+{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
